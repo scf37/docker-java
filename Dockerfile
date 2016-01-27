@@ -17,7 +17,7 @@ WORKDIR /data
 
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /opt/jdk1.8.0_65
-
+ENV PATH $PATH:/opt/jdk1.8.0_65/bin
 
 # Define default command.
 CMD ["bash"]
